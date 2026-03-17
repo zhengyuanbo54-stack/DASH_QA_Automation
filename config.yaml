@@ -1,0 +1,21 @@
+# Android 配置 (Windows环境下逻辑完整)
+android:
+  platformName: Android
+  platformVersion: "13"
+  deviceName: Android_Emulator
+  appPackage: com.example.app
+  appActivity: .MainActivity
+  automationName: UiAutomator2
+  noReset: true
+
+# iOS 配置 (注：因无macOS环境，此部分按官方规范设计，无需验证)
+# ios:
+#   platformName: iOS
+#   platformVersion: "17.0"
+#   deviceName: iPhone 15 Pro
+#   bundleId: com.example.app
+#   automationName: XCUITest
+
+common:
+  appium_server: http://127.0.0.1:4723/wd/hub
+  implicit_wait: 10
