@@ -1,7 +1,7 @@
 # DASH QA Automation Code Challenge
 
 ## 项目信息
-- **完成耗时**：约 3 小时
+- **完成耗时**：约 2 小时
 - **环境**：Windows 11 + PyCharm + Python 3.12
 - **核心技术栈**：Appium + Python + pytest + Page Object Model (POM)
 - ## 环境说明
